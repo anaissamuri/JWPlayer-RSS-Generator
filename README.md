@@ -2,6 +2,7 @@ JWPlayer-RSS-Generator
 ======================
 
 PHP- RSS Generator for JWPlayer RSS Playlist
+
 ======================
 
 Usage
