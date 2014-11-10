@@ -10,13 +10,19 @@ Usage
 
 1. HTTP GET Request
 
+======================
+
 1.1 generator=true
 
 1.2 user=USERID
 
 1.3 playlist=PLAYLISTID
 
+======================
+
 2. include in PHP and use the functions
+
+======================
 
 2.1 checkAlive("URL") - will return true if 200 code received
 
