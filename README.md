@@ -1,36 +1,28 @@
-JWPlayer-RSS-Generator
-======================
+# JWPlayer-RSS-Generator
 
 PHP- RSS Generator for JWPlayer RSS Playlist
+* Reference : http://support.jwplayer.com/customer/portal/articles/1406722-rss-playlist-embed 
 
-======================
 
-Usage
+## Usage
 
-======================
+### HTTP GET Request
 
-1. HTTP GET Request
+* generator=true
 
-======================
+* user=USERID
 
-1.1 generator=true
+* playlist=PLAYLISTID
 
-1.2 user=USERID
 
-1.3 playlist=PLAYLISTID
+### Include in PHP and use the functions
 
-======================
+* checkAlive("URL") - will return true if 200 code received
 
-2. include in PHP and use the functions
+* loadXML("URL") - will return an JSON Array
 
-======================
+* YouTubePlaylist("URL") - will return an Array of required data [video_id][video_title]
 
-2.1 checkAlive("URL") - will return true if 200 code received
+* YoutubeUserUpload("URL") - will return an Array of required data [video_id][video_title]
 
-2.2 loadXML("URL") - will return an JSON Array
-
-2.3 YouTubePlaylist("URL") - will return an Array of required data [video_id][video_title]
-
-2.4 YoutubeUserUpload("URL") - will return an Array of required data [video_id][video_title]
-
-2.5 EchoXML(Array()) - will generate JWPlayer RSS Playlist XML
+* EchoXML(Array()) - will generate JWPlayer RSS Playlist XML
