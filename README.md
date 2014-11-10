@@ -6,6 +6,7 @@ PHP- RSS Generator for JWPlayer RSS Playlist
 ======================
 
 Usage
+
 ======================
 
 1. HTTP GET Request
